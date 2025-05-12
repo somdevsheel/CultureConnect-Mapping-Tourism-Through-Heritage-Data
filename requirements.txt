@@ -7,4 +7,4 @@ pillow
 matplotlib
 requests
 statsmodels
-sklearn
+scikit-learn
