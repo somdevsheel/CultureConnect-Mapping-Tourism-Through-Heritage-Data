@@ -66,7 +66,7 @@ def connect_to_snowflake():
         # In a real application, store these securely using st.secrets
         conn = snowflake.connector.connect(
             user=st.session_state.get('snowflake_user', 'somdevsheel'),
-            password=st.session_state.get('snowflake_password', 'S09@somdevsheel'),
+            password=st.session_state.get('snowflake_password', 'hh'),
             account=st.session_state.get('snowflake_account', 'LO64709'),
             warehouse=st.session_state.get('snowflake_warehouse', 'COMPUTE_WH'),
             database=st.session_state.get('snowflake_database', 'SNOWFLAKE_SAMPLE_DATA'),
